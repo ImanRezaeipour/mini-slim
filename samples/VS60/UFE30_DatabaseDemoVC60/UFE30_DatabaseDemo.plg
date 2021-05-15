@@ -1,0 +1,47 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: UFE30_DatabaseDemo - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x412 /fo"Release/UFE30_DatabaseDemo.res" /d "NDEBUG" /d "_AFXDLL" "D:\SUPREMA\UFSDK\UFE35\samples\VS60\UFE30_DatabaseDemoVC60\UFE30_DatabaseDemo.rc"" 
+Creating temporary file "C:\Users\SILEE~1.SUP\AppData\Local\Temp\RSP6A18.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /I "../../../include" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /Fp"Release/UFE30_DatabaseDemo.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\SUPREMA\UFSDK\UFE35\samples\VS60\UFE30_DatabaseDemoVC60\StdAfx.cpp"
+"D:\SUPREMA\UFSDK\UFE35\samples\VS60\UFE30_DatabaseDemoVC60\UFE30_DatabaseDemo.cpp"
+"D:\SUPREMA\UFSDK\UFE35\samples\VS60\UFE30_DatabaseDemoVC60\UFE30_DatabaseDemoDlg.cpp"
+"D:\SUPREMA\UFSDK\UFE35\samples\VS60\UFE30_DatabaseDemoVC60\UserInfoDlg.cpp"
+]
+Creating command line "cl.exe @C:\Users\SILEE~1.SUP\AppData\Local\Temp\RSP6A18.tmp" 
+Creating temporary file "C:\Users\SILEE~1.SUP\AppData\Local\Temp\RSP6A29.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/UFE30_DatabaseDemoVC60.pdb" /machine:I386 /out:"../../../bin/UFE30_DatabaseDemoVC60.exe" 
+.\Release\StdAfx.obj
+.\Release\UFE30_DatabaseDemo.obj
+.\Release\UFE30_DatabaseDemoDlg.obj
+.\Release\UserInfoDlg.obj
+.\Release\UFE30_DatabaseDemo.res
+..\..\..\lib\UFScanner.lib
+..\..\..\lib\UFDatabase.lib
+..\..\..\lib\UFMatcher.lib
+]
+Creating command line "link.exe @C:\Users\SILEE~1.SUP\AppData\Local\Temp\RSP6A29.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+UFE30_DatabaseDemo.cpp
+UFE30_DatabaseDemoDlg.cpp
+UserInfoDlg.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+UFE30_DatabaseDemoVC60.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,60 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: UFE30_Demo - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Release/UFE30_Demo.res" /d "NDEBUG" "D:\SUPREMA\UFSDK\UFE35\samples\VS60\UFE30_DemoVC60\UFE30_Demo.rc"" 
+Creating temporary file "C:\Users\SILEE~1.SUP\AppData\Local\Temp\RSPB0E5.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /I "../../../include" /D "NDEBUG" /D "WIN32" /D "_WINDOWS" /D "_MBCS" /FR"Release/" /Fp"Release/UFE30_Demo.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\SUPREMA\UFSDK\UFE35\samples\VS60\UFE30_DemoVC60\UFE30_Demo.cpp"
+"D:\SUPREMA\UFSDK\UFE35\samples\VS60\UFE30_DemoVC60\UFE30_DemoDlg.cpp"
+"D:\SUPREMA\UFSDK\UFE35\samples\VS60\UFE30_DemoVC60\UFE30_EnrollDlg.cpp"
+"D:\SUPREMA\UFSDK\UFE35\samples\VS60\UFE30_DemoVC60\UFE30_UserInfoDlg.cpp"
+]
+Creating command line "cl.exe @C:\Users\SILEE~1.SUP\AppData\Local\Temp\RSPB0E5.tmp" 
+Creating temporary file "C:\Users\SILEE~1.SUP\AppData\Local\Temp\RSPB0E6.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /I "../../../include" /D "NDEBUG" /D "WIN32" /D "_WINDOWS" /D "_MBCS" /FR"Release/" /Fp"Release/UFE30_Demo.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\SUPREMA\UFSDK\UFE35\samples\VS60\UFE30_DemoVC60\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\SILEE~1.SUP\AppData\Local\Temp\RSPB0E6.tmp" 
+Creating temporary file "C:\Users\SILEE~1.SUP\AppData\Local\Temp\RSPB0E7.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/UFE30_DemoVC60.pdb" /machine:I386 /out:"../../../bin/UFE30_DemoVC60.exe" 
+.\Release\StdAfx.obj
+.\Release\UFE30_Demo.obj
+.\Release\UFE30_DemoDlg.obj
+.\Release\UFE30_EnrollDlg.obj
+.\Release\UFE30_UserInfoDlg.obj
+.\Release\UFE30_Demo.res
+..\..\..\lib\UFMatcher.lib
+..\..\..\lib\UFScanner.lib
+]
+Creating command line "link.exe @C:\Users\SILEE~1.SUP\AppData\Local\Temp\RSPB0E7.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+UFE30_Demo.cpp
+UFE30_DemoDlg.cpp
+UFE30_EnrollDlg.cpp
+UFE30_UserInfoDlg.cpp
+Generating Code...
+Linking...
+LINK : warning LNK4089: all references to "SHELL32.dll" discarded by /OPT:REF
+Creating command line "bscmake.exe /nologo /o"Release/UFE30_Demo.bsc"  .\Release\StdAfx.sbr .\Release\UFE30_Demo.sbr .\Release\UFE30_DemoDlg.sbr .\Release\UFE30_EnrollDlg.sbr .\Release\UFE30_UserInfoDlg.sbr"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+UFE30_DemoVC60.exe - 0 error(s), 1 warning(s)
+</pre>
+</body>
+</html>

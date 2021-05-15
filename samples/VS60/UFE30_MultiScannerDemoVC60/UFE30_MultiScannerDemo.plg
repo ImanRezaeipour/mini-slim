@@ -1,0 +1,50 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: UFE30_MultiScannerDemo - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Release/UFE30_MultiScannerDemo.res" /d "NDEBUG" /d "_AFXDLL" "D:\SUPREMA\UFSDK\UFE35\samples\VS60\UFE30_MultiScannerDemoVC60\UFE30_MultiScannerDemo.rc"" 
+Creating temporary file "C:\DOCUME~1\silee\LOCALS~1\Temp\RSP1EC9.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /I "../../../include" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/UFE30_MultiScannerDemo.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\SUPREMA\UFSDK\UFE35\samples\VS60\UFE30_MultiScannerDemoVC60\UFE30_MultiScannerDemo.cpp"
+"D:\SUPREMA\UFSDK\UFE35\samples\VS60\UFE30_MultiScannerDemoVC60\UFE30_MultiScannerDemoDlg.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\silee\LOCALS~1\Temp\RSP1EC9.tmp" 
+Creating temporary file "C:\DOCUME~1\silee\LOCALS~1\Temp\RSP1ECA.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /I "../../../include" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/UFE30_MultiScannerDemo.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\SUPREMA\UFSDK\UFE35\samples\VS60\UFE30_MultiScannerDemoVC60\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\silee\LOCALS~1\Temp\RSP1ECA.tmp" 
+Creating temporary file "C:\DOCUME~1\silee\LOCALS~1\Temp\RSP1ECB.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/UFE30_MultiScannerDemoVC60.pdb" /machine:I386 /out:"../../../bin/UFE30_MultiScannerDemoVC60.exe" 
+.\Release\StdAfx.obj
+.\Release\UFE30_MultiScannerDemo.obj
+.\Release\UFE30_MultiScannerDemoDlg.obj
+.\Release\UFE30_MultiScannerDemo.res
+..\..\..\lib\UFScanner.lib
+..\..\..\lib\UFMatcher.lib
+]
+Creating command line "link.exe @C:\DOCUME~1\silee\LOCALS~1\Temp\RSP1ECB.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+UFE30_MultiScannerDemo.cpp
+UFE30_MultiScannerDemoDlg.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+UFE30_MultiScannerDemoVC60.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
